@@ -13,9 +13,11 @@ func fale(pessoa, texto string, qtde int) {
 }
 
 func main() {
+	//Processo seriado (sync)
 	// fale("Maria", "Pq vc não fala comigo?", 3)
 	// fale("João", "Só posso falar depois de vc!", 1)
 
+	//criando a goroutine
 	// go fale("Maria", "Ei...", 500)
 	// go fale("João", "Opa...", 500)
 
