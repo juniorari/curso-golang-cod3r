@@ -26,7 +26,7 @@ func primos(n int, c chan int) {
 			}
 		}
 	}
-	close(c) //fecha o canal. Importante!!
+	close(c) //fecha o canal. Importantíssimo!!
 }
 
 func main() {
